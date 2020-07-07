@@ -1,0 +1,68 @@
+.work-image {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 460px;
+    margin-bottom: 40px;
+    box-orient: vertical;
+    box-direction: normal;
+    flex-direction: column;
+    box-pack: center;
+    justify-content: center;
+    box-align: stretch;
+    align-items: stretch;
+    background-color: #f4f4f4;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    }
+
+.section {
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+.sub-section {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.container-header {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.text-spacing {
+    padding-top: 2em
+}
+
+.text-spacing-1 {
+    padding-top: 1em;
+}
+
+.center-align-text {
+    text-align: center;
+}
+
+#highlights {
+    padding-bottom: 3em;
+}
+
+#projects {
+    padding: 3em;
+    padding-right: 3em;
+}
+
+.projects-borders {
+    border: 1px solid black;
+    box-shadow: 1px 1px 20px black;
+    padding: 10px
+}
+
+.projects-borders:hover {
+    border: 1px solid ;
+}
+

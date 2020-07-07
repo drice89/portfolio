@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+        .work-image {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            height: 460px;
+            margin-bottom: 40px;
+            box-orient: vertical;
+            box-direction: normal;
+            flex-direction: column;
+            box-pack: center;
+            justify-content: center;
+            box-align: stretch;
+            align-items: stretch;
+            background-color: transparent;
+            background-position: 50% 50%;
+            background-size: cover;
+            text-align: center;
+            text-decoration: none;
+          }
+        
+        .section {
+            padding-bottom: 3em;
+            padding-top: 3em;
+        }
+
+        .sub-section {
+            padding-bottom: 2em;
+            padding-top: 2em;
+            margin: 0 0 10px 0;
+        }
+
+        .container-header {
+            padding-top: 3em;
+            padding-bottom: 3em;
+        }
+
+        .text-spacing {
+            padding-top: 2em
+        }
+
+        .text-spacing-1 {
+            padding-top: 1em;
+        }
+
+        .center-align-text {
+            text-align: center;
+        }
+
+        #highlights {
+            padding-bottom: 3em;
+        }
+
+        #projects {
+            padding: 3em;
+            padding-right: 3em;
+        }
+
+        .project-borders {
+            padding: 35px 25px;
+            margin: 5px;
+            border-radius: .25rem
+        }
+
+        div {
+            box-shadow: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .project-borders:hover {
+            box-shadow: 2px 2px 10px rgba(0,0,0, .25);
+            background-color: #6c757d;
+            color: white;
+        }
+
+        
+        .project-borders img {
+            padding: 5px;
+            border: none;
+        }
+        
+        .slockify {
+            margin: 0 auto;
+            width: 45%;
+        }
+        
+        .slockify img {
+            background-color: black;
+            height: 400px;
+        }
+        
+        .project-link:hover {
+            color: black;
+        }
+
+        .project-link:link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .project-link {
+            color: inherit;
+        }
+
+
+    </style>
+    <!-- Required meta tags for Bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Dillon Rice</title>
+  </head>
+  <body>
+    <!-- nav bar --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#"><img src="assets/logo.png" width="104"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- intro header-->
+      <div class="container-fluid bg-white text-dark section">
+        <div class ="container text-spacing" id = "subheader-name">
+            <h3>Dillon Rice</h3>
+            <h4 class="text-muted"> Web Application Developer</h4>
+        </div>
+        <div class ="container">
+                <h1 id = "header-text" class ="display-3">Hey there! I’m full stack web app designer and developer based in the San Francisco Bay Area. </h1>
+        </div>
+        </div>
+      </div>
+
+    <!-- about-->
+    <div class="container-fluid bg-secondary text-light section" id = "aboutme">
+        <a name ="aboutme"></a>
+        <div class ="container">
+                <div class = "row">
+                    <div class ="col-sm-4 my-auto">
+                        <div>
+                            <h6>HEY THERE!</h6>
+                        </div>
+                        <div>
+                            <h2>I'm Dillon</h2>
+                        </div>
+                        <div>
+                            I’m a web application designer and Bay Area native. I live in the Diablo Valley with my family. I like to code  and listen to heavy metal. On weekends you can find me on my motorcycle or at the park with my son! In my free time, I enjoy table top RPGs, reading fantasy and sci-fi, and 3d printing. If you'd like to reach me to network or collaborate, you can reach me at dillon.m.rice@gmail.com or fill out the form below.  
+                        </div>
+                    </div>
+                    <div class ="col-sm-8">
+                        <img class="img-fluid" src ="assets/72075718_10162714974940508_5779781376203030528_n.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+        <div class="container" id="expirience">
+            <div>
+                <h2>My Career So Far...</h2>
+            </div>
+            <div class =" lead text-spacing-1 sub-section">I graduated from college in 2013 began working for a start up called Nonstop Wellness. Nonstop Wellness is one part technology, one part health care insurance product, one part administration- an innovative health care solution for nonprofit Employers. I was the 2nd official employee hired there and spend much of the last 6.5 years developing, managing, and configuring their proprietary technology called the Nonstop Exchange. I developed experience with Javascript, Angular, Mongo DB, Auth0, E2E testing, quality control, agile project management product management, AWS, Atlassian products, system and database administration, new client systems implementations, client management, team management and leadership, I left Nonstop Wellness in January of 2020 to join the February App Academy Cohort. At App Academy I developed the skills required to build fullstack web applications. You can find my portfolio below.</div>
+            <div class = "row text-spacing sub-section">
+                <div class="col-sm">
+                    <div>
+                        <h4>Sr. Manager, Tech Ops</h4>
+                    </div>
+                    <div>
+                        <h6 class="text-light">Nonstop Wellness</h6>
+                    </div>
+                    <div>
+                        <h6><small class="text-light">Jan 2017 — Jul 2018</small></h6>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div>
+                        <h4>Director, IO Operations</h4>
+                    </div>
+                    <div>
+                        <h6 class="text-light">Nonstop Wellness</h6>
+                    </div>
+                    <div>
+                        <h6><small class="text-light">Jul 2018 — Apr 2019</small></h6>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div>
+                        <h4>Director, Project Mgmt</h4>
+                    </div>
+                    <div>
+                        <h6 class="text-light">Nonstop Wellness</h6>
+                    </div>
+                    <div>
+                        <h6><small class="text-light">Apr 2019— Jan 2020</small></h6>
+                </div>
+                </div>
+                <div class="col-sm">
+                    <div>
+                        <h4>Student</h4>
+                    </div>
+                    <div>
+                        <h6 class="text-light">App Academy</h6>
+                    </div>
+                    <div>
+                        <h6><small class="text-light">Feb 2020 - June 2020</small></h6>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    
+    <div class ="container sub-section" id = "highlights">
+        <div class ="row">
+            <div class = "col-sm">
+                <div>
+                    <h3>Experience</h3>
+                </div>
+                <div>
+                    <h6 class="lead">Six and a half years of technology and start up experience. Formal training through a top tier developer's bootcamp. Hard working, dedicated, team leader.</h6>
+                </div>
+            </div>
+            <div class ="col-sm-8">
+                <!-- <div class = "row">
+                    <div class ="col-sm">
+                        <h3>Project Management</h3>
+                    </div>
+                    <div class ="col-sm">
+                        <h3>Team Leadership</h3>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class ="col-sm">
+                        <h3>Ruby</h3>
+                    </div>
+                    <div class ="col-sm">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class ="col-sm">
+                        <h3>Quality Assurance</h3>
+                    </div>
+                    <div class ="col-sm">
+                        <h3>Process Management</h3>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class ="col-sm">
+                        <h3>MongoDB</h3>
+                    </div>
+                    <div class ="col-sm">
+                        <h3>React</h3>
+                    </div>
+                </div> -->
+            <div class = "row">
+                <div class ="col-sm">
+                    <h3>Ruby</h3>
+                </div>
+                <div class ="col-sm">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class = "row">
+                <div class ="col-sm">
+                    <h3>Rspec</h3>
+                </div>
+                <div class ="col-sm">
+                    <h3>SQL</h3>
+                </div>
+            </div>
+            <div class = "row">
+                <div class ="col-sm">
+                    <h3>MongoDB</h3>
+                </div>
+                <div class ="col-sm">
+                    <h3>React</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h3>Ruby on Rails</h3>
+                </div>
+                <div class="col-sm">
+                    <h3>Express</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h3>Node</h3>
+                </div>
+                <div class="col-sm">
+                    <h3>Websockets</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Projects-->
+      <div class="container-fluid section bg-white text-dark" id="projects">
+          <a name="projects"></a>
+
+            <div class ="container">
+                <div class = "row" id = "project-row-1">
+                    <div class = "col-sm-7" id = "project1">
+                        <a class="project-link" href="https://virtualtabletop.herokuapp.com/">
+                            <div class="project-borders">
+                                <div class = "container">
+                                    <img class="work-image img-fluid rounded mx-auto d-block" src="https://i.imgur.com/ugqJLw3.png">
+                                </div>
+                                <div class = "container text-center">
+                                    <h3>Virtual Tabletop</h3>
+                                </div>
+                                <div class = "container text-center">Online multi-player tabletop sandbox enviroment for playing board games pen and paper RPGs online built with MERN stack technology</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class ="col-sm-5" id = "project2">
+                        <a class="project-link" href="https://drice89.github.io/grimdark/">
+                            <div class="project-borders">
+                                <div class = "container">
+                                    <img class="work-image img-fluid rounded mx-auto d-block" src="https://i.imgur.com/LuZYUEE.png">
+                                </div>
+                                <div class = "container text-center">
+                                    <h3>Grimdark</h3>
+                                </div>
+                                <div class = "container text-center">A tile-based rogue-like sci-fi shooter written in vanilla JS</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class = "row text-spacing" id = "project-row-2">
+                    <!-- <div class = "col-sm-5" id = "project3">
+                        <div class = "container border border-secondary">
+                            <img class="work-image img-fluid rounded mx-auto d-block" src="https://i.imgur.com/LuZYUEE.png">
+                        </div>
+                        <div class = "container text-center">
+                            <h3>Unfiltered</h3>
+                        </div>
+                        <div class = "container text-center">Work in progress - Political Debate "game" built with Django, React Native, and GraphQL</div>
+                    </div> -->
+                    <div class ="col-sm" id="project4">
+                        <!-- <div class="col-sm-7"></div> -->
+                        <a class="project-link" href="https://slockify.herokuapp.com/#/">
+                            <div class="project-borders slockify">
+                                <div class = "container">
+                                    <img class="work-image img-fluid rounded mx-auto d-block slockify-image" src="https://i.imgur.com/HtnjRTq.png">
+                                </div>
+                                <div class="container text-center">
+                                    <h3>Slockify</h3>
+                                </div>
+                                <div class="container text-center">A slack clone with Spotify integration and collaborative playlists. Built with React and Ruby.</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm section">
+                            <a href="https://www.github.com/drice89" class="btn btn-dark btn-lg btn-block" alt="Github" rel="noopener noreferrer" target="_blank">Check out my GitHub!</a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+   <!-- Contact--> 
+    <div class="container-fluid bg-secondary text-light section">
+        <a name ="contact"></a>
+      <div class="container">
+        <div>
+          <h1>Want to get in touch?</h1>
+        </div>
+        <div class="text-spacing">
+            <h3>Join my Slack workspace</h3>
+            <p>Send me a message via the contact sheet below and request access with your specified email address. You can login <a href="https://murderofcrowsgroup.slack.com" class="text-white" target="_blank"><u>here</u></a></p>
+        </div>
+        <div>
+            <h3>Drop me a line!</h3>
+            <p>Please use the contact form below</p>
+        </div>
+        <div class="contact-form-wrap">
+            <form id="contact-form">
+                <div class="form-row">
+                    <div class = "col-sm">
+                        <label for="contact-email">Full Name</label>
+                        <input type="text" class="form-control" id="contact-email">
+                    </div>
+                    <div class = "col-sm">
+                        <label for="contact-name">Email</label>
+                        <input type="text" class="form-control" id="contact-name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-sm">
+                        <label for="contact-message">Message</label>
+                        <textarea class="form-control" rows="5" id="contact-message"></textarea>
+                    </div>
+                </div>
+                <div class="form-row text-spacing-1">
+                    <input class="btn btn-light" type="submit" value="Submit">
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class = "container-fluid section">
+            <div class="row">
+                <div class="col-sm-9">
+                    <span><small class="text-muted"> Copyright &copy; 2020 by Dillon Rice</small></span>
+                </div>
+                <div class="col-sm">
+                    <a class="text-muted" href="https://www.linkedin.com/in/dillon-rice-48339a47">LINKEDIN</a>
+                </div>
+                <div class="col-sm">
+                    <a class="text-muted" href="https://www.instagram.com/dr1ce/">INSTAGRAM</a>
+                </div>
+                <div class="col-sm">
+                    <a class="text-muted" href="https://github.com/drice89">GITHUB</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
