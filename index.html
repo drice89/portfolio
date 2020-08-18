@@ -136,17 +136,36 @@
             font-size: 20px;
         }
 
-        #hero:hover {
-            filter: invert(100%);
-            animation-name: spin;
-            animation-duration: 1000ms;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
+        .joel-anchor {
+            position: relative;
         }
 
          @keyframes spin {
             from {transform:rotate(0deg);}
             to {transform:rotate(360deg);}
+        }
+
+        .joel {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(50%, -50%);
+            width: 200px;
+            height: 300px;
+            z-index: 2;
+            cursor: progress;
+        }
+
+        #hero {
+            z-index: 1;
+        }
+
+        .joel:hover ~ #hero {
+            filter: invert(100%);
+            animation-name: spin;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
         }
 
     </style>
@@ -217,7 +236,8 @@
                             <span class="description-section">I’m a web application designer and Bay Area native. I live in the Diablo Valley with my family. I like to code and listen to heavy metal. On weekends you can find me on my motorcycle or at the park with my son! In my free time, I enjoy table top RPGs, reading fantasy and sci-fi, and 3d printing. If you'd like to reach me to network or collaborate, you can reach me at dillon.m.rice@gmail.com or fill out the form below.</span>
                         </div>
                     </div>
-                    <div class ="col-sm-8">
+                    <div class ="col-sm-8 joel-anchor">
+                        <div class="joel"> </div>
                         <img class="img-fluid" id="hero" src ="assets/72075718_10162714974940508_5779781376203030528_n.jpg">
                     </div>
                 </div>
